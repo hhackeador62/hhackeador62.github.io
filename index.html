@@ -1,0 +1,120 @@
+<!--O HTML serve para mostrar para o compilador do código, para o arquivo que você está iniciando a escrita de um documento HTML, é uma TEG de abertura-->
+<html>
+
+<!--Aqui no head, você coloca tudo o que for configuração do nosso html, e também links que vão fazer referência a API's, arquivos, e conteúdo externo-->
+<head> 
+
+    <!-- O meta charset ele faz com que o nosso código ele seja formatado automaticamente, na cadeia de caracteres-->
+  	<meta charset="utf-8">
+
+  	<!--Arquivo de biblioteca do bootstrap-->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+
+    <!--Aqui dentro da tag style, a gente vai fazer mudanças gráficas no site, mudanças de posição nas fontes, nas imagens, margem, cor e etc-->
+    <style>
+    body {background-color: black;}
+
+    *{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+iframe{
+  width: 400px;
+  height: 287px;
+}
+
+.video_1{
+  width: 100%;
+  border: 5px solid black;
+  display: flex;
+}
+
+.item_1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item_2{
+  display: flex;
+  justify-content: center;
+}
+
+
+</style>
+
+<!--Aqui no bory vem todo o nosso código que vai trazer o visual do nosso HTML-->
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Login indisponível em computador público</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="sobre.html">Sobre</a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="escola.html">Escola</a>
+    </li>
+  </ul>
+</nav>
+  <!--Título do site-->
+  <font color="white">
+    <h2><center>Site André Suter</center></h2>
+  </font>
+
+<!--Linha 1-->
+<div class="item_1">
+
+  <!--Primeiro vídeo-->
+  <div>
+  <iframe width="520" height="340" src="Bad Romance - Lady Gaga (Lyrics).mp4" allowfullscreen></iframe>
+  </div>
+
+  <!--segundo vídeo-->
+  <div>
+  <iframe width="520" height="340" src="Lady Gaga - Poker Face (Lyrics).mp4" allowfullscreen></iframe>
+  </div>
+
+</div>
+
+<!--Linha 2-->
+<div class="item_2">
+
+  <!--Primeiro vídeo-->
+  <div>
+  <iframe width="520" height="340" src="Orelhinhas cantando eu amei alguém.mp4" allowfullscreen></iframe>
+  </div>
+
+</div>
+
+<!--Linha 1-->
+<div class="item_1">
+
+  <!--Primeiro vídeo-->
+  <div>
+  <iframe width="520" height="340" src="Rockabye - (Lyrics).mp4" allowfullscreen></iframe>
+  </div>
+
+  <!--segundo vídeo-->
+  <div>
+  <iframe width="520" height="340" src="Katy Perry - Hot N Cold (Lyrics).mp4" allowfullscreen></iframe>
+  </div>
+
+</div>
+
+    <script>
+
+        alert("Olá, seja bem vindo!");
+
+    </script>
+
+</body>
+</html>
